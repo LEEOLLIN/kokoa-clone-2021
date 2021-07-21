@@ -1,5 +1,5 @@
 .settings__setting {
-  padding: 20px 0;
+  padding: 18px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.03);
   font-size: 18px;
   display: flex;
@@ -15,14 +15,69 @@
 
 
 .settings__setting-column:last-child{
-  opacity: 0.4;
+  opacity: 0.6;
   font-size: 15px;
 }
 
 .settings__setting .line{
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .settings__setting2 .line{
-  margin-top: 25px;
+  margin-top: 30px;
+}
+
+.settings__setting2{
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.settings__setting2 i{
+  opacity: 0.9;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting2 .opatext {
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.settings__setting2-new {
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  background-color: tomato;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-list2 .paddingnone{
+  justify-content: unset;
+}
+
+.settings__setting2 .paddingnone{
+  margin-right: 10px;
+}
+
+
+.settings-list2 .paddingnone-1{
+  justify-content: unset;
+}
+
+.settings__setting2 .paddingnone-1{
+  margin-right: 10px;
+}
+
+.paddingnone-1 .opatext{
+  margin-left: auto;
 }
