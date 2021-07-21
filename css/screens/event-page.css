@@ -1,0 +1,35 @@
+#event-display-link {
+    text-align: center;
+    display: block;
+    background-color: #fafafa;
+    padding: 13px 0px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: -15px;
+}
+
+#event-display-link i{
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.event-screen{
+    margin-top: 30px;
+    padding: 0px var(--horizontal-space);
+}
+
+.event-screen__channel {
+    margin-top: 25px;
+    border-top: var(--main-border);
+    padding-top: 15px;
+}
+
+.event-screen__channel-header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+

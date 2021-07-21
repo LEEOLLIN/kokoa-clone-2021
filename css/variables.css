@@ -1,0 +1,9 @@
+:root {
+    --red: #c2283f;
+    --horizontal-space: 25px;
+    --main-border: 1px solid rgba(0, 0 , 0, 0.2);
+}  
+
+
+
+/* 똑같은 코드를 반복해서 적어야 한다면 변수를 사용!! */

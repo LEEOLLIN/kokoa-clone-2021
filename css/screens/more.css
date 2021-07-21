@@ -1,0 +1,23 @@
+h4{
+  margin-bottom: 5px;
+}
+
+h6{
+  display: inline;
+  font-weight: 600;
+}
+
+.more-screen .icon-row {/*user-component에 마진을 집어 넣으면 다 적용되니깐, chats, more html에 main-screen more-screen 추가 class 명 작성해서 요것만 적용되게!*/
+  margin-top: 35px;
+}
+
+
+.more-screen .icon-row2 {/*user-component에 마진을 집어 넣으면 다 적용되니깐, chats, more html에 main-screen more-screen 추가 class 명 작성해서 요것만 적용되게!*/
+  margin-top: 35px;
+}
+
+
+.infor i {
+  color: #fe6347;
+}
+

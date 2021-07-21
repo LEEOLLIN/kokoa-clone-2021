@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More page - 1972 박문각</title>
+  <style>
+    body {
+      height: 1000vh;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="status-bar">
+
+    <div class="status-bar__column">
+      <span>No service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+
+    <div class="status-bar__column">
+      <span>17:01</span>
+    </div>
+    <div class="status-bar__column">
+      <span>99%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+
+  </div>
+
+  <header class="screen-header">
+    <h1 class="screen-header__title">More</h1>
+    <div class="screen-header__icons">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-music fa-lg"></i></span>
+      <span>
+        <div class="point-dot"></div>
+        <a href="settings.html">
+          <i class="fas fa-cog fa-lg"></i>
+        </a>
+      </span>
+    </div>
+  </header>
+
+
+  <main class="main-screen more-screen">
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="로고.png" class="user-component__avatar user-component__avatar--xl" />
+        <div class="user-component__text">
+          <h4 class="user-component__title">1972, 박문각 - EVENT -</h4>
+          <h6 class="user-component__subtitle">+ 02) 3489-9500</h6>
+          <span class="infor"><i class="fas fa-info-circle fa-xs"></i></span>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <i class="fas fa-envelope-open-text fa-2x"></i>
+        <!--위에 아이콘 color 바꾸기 위해서 user-component.css에 .user-component__column i{ color: rgb(61, 61, 61);} 추가 했음. 나중에 이상있으면 이부분 수정바람-->
+      </div>
+    </div>
+    <div class="icon-row">
+      <div class="icon-row__icon">
+        <i class="far fa-calendar"></i>
+        <span>Calendar</span>
+      </div>
+      <div class="icon-row__icon">
+        <i class="far fa-address-book"></i>
+        <span>Talk Drive</span>
+      </div>
+      <div class="icon-row__icon">
+        <i class="far fa-grin-wink"></i>
+        <span>Emoticons</span>
+      </div>
+      <div class="icon-row__icon">
+        <i class="fas fa-paint-roller"></i>
+        <span>Themes</span>
+      </div>
+    </div>
+    <div class="icon-row2">
+      <div class="icon-row2__icon">
+        <i class="fas fa-file-invoice-dollar"></i>
+        <span>Account</span>
+      </div>
+      <div class="icon-row2__icon">
+        <i class="far fa-comments"></i>
+        <span>Openchat</span>
+      </div>
+      <div class="icon-row2__icon opci">
+        <!--바로 옆에 아이콘들 위치하기  위해 나머지 두개 class 주고 투명처리-->
+        <i class="far fa-grin-wink"></i>
+        <span>Emoticons</span>
+      </div>
+      <div class="icon-row2__icon opci">
+        <i class="fas fa-paint-roller"></i>
+        <span>Themes</span>
+      </div>
+    </div>
+    <div class="more-suggestions">
+      <h4 class="more-suggestions__title">suggestions</h4>
+      <div class="more-suggestions__icons">
+        <div class="more-suggestions__icon-image">
+          <img src="경찰올패스.png" />
+          <span class="more-suggestions__icon-text">Cops</span>
+        </div>
+        <div class="more-suggestions__icon-image">
+          <img src="교원임용.png" />
+          <span class="more-suggestions__icon-text">Teach</span>
+        </div>
+
+        <div class="more-suggestions__icon-image">
+          <img src="스파르타.png" />
+          <span class="more-suggestions__icon-text">Sparta</span>
+        </div>
+
+        <div class="more-suggestions__icon-image">
+          <img src="스파르타.png" />
+          <span class="more-suggestions__icon-text">Sparta</span>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+
+
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="event-page.html"><i class="far fa-user fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="nav__notification badge">4</span>
+          <i class="far fa-comment fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="find.html">
+          <i class="fas fa-search fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <span class="nav__notification2"></span>
+          <i class="fas fa-ellipsis-h fa-2x"></i></a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
