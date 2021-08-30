@@ -12,7 +12,21 @@
     font-weight: 600;
 }
 
-.screen-header__icons span i{
+.screen-header__icons span{
     position: relative;
     margin-left: 25px;
+}
+
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+.screen-header__icons .fa-cog:hover/*마우스 가져다 놨을때만, 반응하게 하는 명령어*/ {
+    animation: rotateCog 2s linear infinite;
 }

@@ -1,12 +1,12 @@
 .status-bar {
-    background-color: white;
+    background-color: #ffffff;
     top: 0px;
+    padding: 5px 3px;
     position: fixed;
     width: 100%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    padding: 5px 3px;
     border-bottom: 1px solid rgba(226, 226, 226, 0.2);
     }
     

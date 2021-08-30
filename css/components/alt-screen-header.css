@@ -1,15 +1,14 @@
-.alt-header{
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: var(--horizontal-space);
   padding-top: 40px;
   margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
-
 .alt-header__title{
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
 }
 

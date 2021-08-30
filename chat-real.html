@@ -14,9 +14,9 @@
   </style>
 </head>
 
-<body>
+<body class="chat-screen">
 
-  <div class="status-bar">
+  <div class="status-bar__chat-real">
 
     <div class="status-bar__column">
       <span>No service</span>
@@ -35,25 +35,108 @@
 
   </div>
 
-
-  <header class="alt-header">
-    <div class="alt-header__column">
-      <a href="more.html">
-        <i class="fas fa-angle-left fa-2x"></i>
-      </a>
-    </div>
-    <div class="alt-header__column">
-      <h1 class="alt-header__title">Angel</h1>
-    </div>
-    <div class="alt-header__column__icons">
-      <span><i class="fas fa-search fa-lg"></i></span>
-      <span><i class="fas fa-bars fa-lg"></i></span>
+  <header>ㄹㅇㄱ
+    <div class="chat_alt-header">
+      <div class="chat_alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="chat_alt-header__column">
+        <h1 class="chat_alt-header__title">Angel</h1>
+      </div>
+      <div class="chat_alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+        <!-- <span><i class="fas fa-bars fa-lg"></i></span> -->
+      </div>
     </div>
   </header>
 
 
-  <main class="main-screen"></main>
+  <main class="main-screen main-chat">
 
+    <div class="chat__timestamp">
+      Friday, July 27, 2021
+    </div>
+
+
+    <div class="message-row">
+      <img src="수강생.png" />
+      <div class="message-row__content1">
+        <span class="message__author">유연석</span>
+        <div class="message__talk">
+          <span class="message__bubble">안녕하세요!</span>
+          <span class="message__time">17:01</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row__author1">
+      <div class="message-row__imgopa">
+        <img src="수강생.png" />
+      </div>
+      <div class="message-row__content2">
+        <span class="message__author"></span>
+        <div class="message__talk">
+          <span class="message__bubble">다름이 아니라, 수강 신청을 하고 싶은데</span>
+          <span class="message__time">17:01</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row__author1">
+      <div class="message-row__imgopa">
+        <img src="수강생.png" />
+      </div>
+      <div class="message-row__content">
+        <span class="message__author"></span>
+        <div class="message__talk">
+          <span class="message__bubble">여기다가 문의 드리면 될까요?</span>
+          <span class="message__time">17:02</span>
+        </div>
+      </div>
+    </div>
+
+    <!--위에는 연달아 쓰는 대화창, 밑에는 다른 대화상대가 말하는 대화창-->
+    <div class="message-row message-row__own">
+      <div class="message-row__content">
+        <div class="message__talk">
+          <span class="message__bubble">안녕하세요! 유연석님 ^_^</span>
+          <span class="message__time">17:02</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row message-row__own2">
+      <div class="message-row__content">
+        <div class="message__talk">
+          <span class="message__bubble">무엇을 도와드릴까요?</span>
+          <span class="message__time">17:02</span>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="far fa-plus-square fa-lg"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message..." />
+      <i class="far fa-smile-wink fa-lg"></i>
+      <button>
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  </form>
+
+  <div id="no-mobile">
+    <span>Your screen is too big ㅠㅠ</span>
+  </div>
 
   <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 

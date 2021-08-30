@@ -31,5 +31,29 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+@keyframes hideSplashScreen {    /*애니메이션 단계 */
+    from {
+        opacity: 1;
+    }
 
+    to {
+        opacity: 0;
+        visibility: hidden;   /* 애니메이션 후 100vh, 100vw로 설정 해놨기에 다른 곳을 클릭할 수 없음. (opacity만 적용 해놨기에)
+                                  그래서!!!! visibility: hidden 을 추가하여 안보이게 해놔야 함!!!!!*/
+    }
+}
 
+#splash-screen {
+    background-color: var(--yellow);
+    position: absolute;   /* 해당 창을 무조건 맨 위로 올릴거임. absolute는 친근한(relative) 부모를 따라가기 마련인데, 어떠한 부모도 원치 않을 떈, 온전히 body에만 기준해서 적용되기를 바랄땐 */
+    height: 100vh;  /* 높이 넓이를 화면 넓이의 100% -높이(vh) 넓이 (vw) */
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: hideSplashScreen 0.3s ease-in-out forwards;  /*애니메이션 단계  *forwards 애니메이션은 끝나고 다시 되돌아 가려고 하기에, 
+                                                               마지막 속성 값을 기억해서 애니메이션이 끝나는 시점에 유지함. */
+    animation-delay: 0.6s;    /*애니메이션 딜레이(멈춤)는 요걸로*/
+}
